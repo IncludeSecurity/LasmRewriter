@@ -396,7 +396,7 @@ def main():
     import os.path
 
     if len(sys.argv) != 2:
-        print("Use: d52.py <lasm_file>")
+        print("Use: LasmRewriter.py <lasm_file>")
         sys.exit(1)
 
     filename = sys.argv[1]
